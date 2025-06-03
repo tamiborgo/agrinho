@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conexão Campo-Cidade</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f0f5;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #4CAF50, #81C784);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    section {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgb(233, 4, 222);
+      padding: 1.5rem;
+      border-left: 10px solid;
+      transition: transform 0.2s;
+    }
+
+    section:hover {
+      transform: scale(1.02);
+    }
+
+    .campo {
+      border-color: #0a69e6;
+    }
+
+    .cidade {
+      border-color: #ef074c;
+    }
+
+    .conexao {
+      border-color: #0aeb0a;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #222;
+    }
+
+    footer {
+      background: #ddd;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Conexão Campo-Cidade</h1>
+    <p>Explorando os laços entre zonas rurais e urbanas</p>
+  </header>
+
+  <main>
+    <section class="campo">
+      <h2>🌾 Campo</h2>
+      <p>O campo representa a origem dos alimentos, da cultura rural, da biodiversidade e da vida próxima à natureza. É o berço da produção agrícola e dos recursos naturais.</p>
+    </section>
+
+    <section class="cidade">
+      <h2>🏙️ Cidade</h2>
+      <p>As cidades são centros de consumo, serviços, tecnologia e inovação. Elas dependem do campo para suprimentos e oferecem infraestrutura e mercados para os produtos rurais.</p>
+    </section>
+
+    <section class="conexao">
+      <h2>🔗 A Conexão</h2>
+      <p>A conexão entre campo e cidade é essencial: o campo abastece a cidade com alimentos e matéria-prima, enquanto a cidade fornece acesso à educação, saúde, tecnologia e mercados para os produtores rurais.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projeto Temático – 2025 | Desenvolvido com 💚 no Visual Studio Code</p>
+  </footer>
+
+</body>
+</html>
+
